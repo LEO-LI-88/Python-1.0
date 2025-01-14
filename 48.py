@@ -50,9 +50,9 @@ def newFilter():
     b = p[2]
     # Perform pixel manipulation and stores results
     # to a new red, green and blue components
-    newr = r
-    newg = g
-    newb = b
+    newr = 0
+    newg = g * 10
+    newb = 0
     # Assign new red, green and blue components to pixel
     # at that specific location
     new_pixels[location] = (newr, newg, newb)
