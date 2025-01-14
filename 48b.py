@@ -50,7 +50,7 @@ def newFilter():
     b = p[2]
     # Perform pixel manipulation and stores results
     # to a new red, green and blue components
-    newr = r + value1
+    newr = (r + value1) // 1000
     newg = g + value2
     newb = b + value3
     # Assign new red, green and blue components to pixel
